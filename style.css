@@ -125,7 +125,7 @@ header button:hover {
   gap: 20px 40px;
   padding: 60px 40px;
   background-color: black;
-  border-bottom: 1px solid red;
+  border-top: 1px solid #333333;
 }
 
 .perfil img {
@@ -158,9 +158,6 @@ header button:hover {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 40px;
-  text-shadow:
-    0 0 10px red,
-    0 0 20px red;
 }
 #filmes article {
   background-color: #1c1c1c;
@@ -188,13 +185,19 @@ header button:hover {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 10px;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 #filmes .genero {
   font-size: 14px;
   font-weight: 700;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 16px;
+  text-align: center;
 }
 #filmes .justificativa {
   font-size: 16px;
@@ -202,6 +205,7 @@ header button:hover {
   color: #cccccc;
   margin-top: 16px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 a.link-filme {
   display: inline-block;
@@ -213,6 +217,8 @@ a.link-filme {
   font-weight: 700;
   transition: 0.3s;
   margin-top: auto;
+  align-self: center;
+  width: fit-content;
 }
 a.link-filme:hover {
   background-color: #b20710;
@@ -226,13 +232,13 @@ a.link-filme:hover {
 /*filme favorito*/
 .favorito {
   display: grid;
-  grid-template-columns: 280px 650px;
+  grid-template-columns: 240px 600px;
   gap: 40px;
   align-items: center;
   justify-content: center;
-  padding: 70px 40px;
+  padding: 35px 40px;
   background-color: black;
-  border-bottom: 3px solid red;
+  border-top: 1px solid #333333;
   
 }
 
@@ -241,8 +247,8 @@ a.link-filme:hover {
 }
 
 .favorito img {
-width: 300px;
-height: 480px;
+width: 220px;
+height: 350px;
 object-fit: cover;
 border-radius: 12px;
 transition: 0.3s;
@@ -308,16 +314,18 @@ transition: 0.3s;
 }
 
 .social {
-  padding: 30px 40px;
-  background-color: #111111;
+  padding: 0;
+  background-color: transparent;
   color: #ffffff;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .social h2 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin: 0;
   color: #ffffff;
   text-shadow:
   0 0 6px #e50914,
@@ -362,7 +370,12 @@ header h1,h1,h2,h3 {
 footer {
   background-color: #0d0d0d;
   color: #ffff;
-  padding: 0px;
+display: flex;
+align-items: center;
+justify-content:center;
+gap: 80px;
+
+  padding: 30px 40px;
   border-top: 1px solid #333333;
 }
 
