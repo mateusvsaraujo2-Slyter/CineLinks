@@ -5,13 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>Cinelinks</title>
+  <title>Cinelinks - Minhas recomendações de cinemas</title>
 </head>
 
 <body>
   <header>
     <h1>Cinelinks</h1>
-    <button>Tema</button>
+    <button id="botao-tema">Dark</button>
   </header>
 
   <main>
@@ -33,13 +33,13 @@
       <div class="favorito-conteudo">
         <h2>Meu filme Favorito</h2>
         <h3>Pânico</h3>
-        <p>Gênero Terror Slasher | Ano: 1996</p>
+        <p>Gênero Terror / Slasher | Ano: 1996</p>
 
 
 
-        <p class="favorito-descrição">
-          Pânico é meu filme favorito pela forma que constroi uma atmosfera de suspense constante, e também pelo uso da
-          metalinguagem que desconstroi o próprio gênero
+        <p class="favorito-descricao">
+          Pânico é meu filme favorito pela forma que constrói uma atmosfera de suspense constante e também pelo uso da
+          metalinguagem que desconstrói o próprio gênero
         </p>
 
         <a href="https://imdb.com/pt/title/tt0117571/" class="favorito-link" target="_blank">
@@ -50,14 +50,10 @@
 
 
 
-    <section id="filmes">1
+    <section id="filmes">
       <h2>Filmes Recomendados</h2>
 
-      <div class="carrossel-container">
 
-        <button class="carrossel-btn anterior">
-          &#10094;
-          </button>
 
       <div class="carrossel">
         <article>
@@ -109,7 +105,7 @@
         </article>
 
         <article>
-          <h3>Obssessão</h3>
+          <h3>Obsessão</h3>
           <p class="genero">Gênero: Terror / Suspense | Ano: 2026</p>
           <img src="assets/filme5.jpg" alt="Obssessão" />
 
@@ -121,9 +117,7 @@
         </article>
 
       </div>
-      <button class="carrossel-btn proximo">
-        &#10095;
-        </button>
+    
         </div>
 
     </section>
@@ -170,6 +164,8 @@
 
     </div>
   </footer>
+
+  <script src="script.js"></script>  
 </body>
 
 </html>
