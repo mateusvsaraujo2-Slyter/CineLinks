@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*Cabeçalho*/
 
 header {
@@ -14,6 +15,7 @@ header {
   background-color: #111111;
   position: relative;
 }
+
 header h1 {
   color: #ffffff;
   font-size: 42px;
@@ -51,6 +53,7 @@ header button {
     box-shadow 0.3s ease,
     border-color 0.3s ease;
 }
+
 header button:hover {
   box-shadow:
     0 0 15px red,
@@ -82,12 +85,14 @@ header button:hover {
     0 0 10px red,
     0 0 20px red;
 }
+
 .hero p {
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto 30px;
 }
+
 .hero a {
   display: inline-block;
   background-color: red;
@@ -98,12 +103,14 @@ header button:hover {
   font-weight: 700;
   transition: 0.3s;
 }
+
 .hero a:hover {
   background-color: #b20710;
   transform: translateY(-3px);
 }
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /*Perfil section*/
@@ -125,12 +132,14 @@ html {
   border-radius: 50%;
   grid-row: 1 / 3;
 }
+
 .perfil h2 {
   text-align: left;
   font-size: 32px;
   font-weight: 700;
   color: white;
 }
+
 .perfil p {
   font-size: 18px;
   line-height: 1.6;
@@ -146,11 +155,13 @@ html {
   box-sizing: border-box;
   border-color: red;
 }
+
 #filmes h2 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 40px;
 }
+
 #filmes article {
   background-color: #1c1c1c;
   padding: 24px;
@@ -160,11 +171,7 @@ html {
   box-sizing: border-box;
   display: grid;
   grid-template-rows:
-    64px
-    46px
-    320px
-    1fr
-    auto;
+    64px 46px 320px 1fr auto;
 
   gap: 10px;
 
@@ -186,6 +193,7 @@ html {
   object-position: center;
   margin: 0;
 }
+
 #filmes article h3 {
   margin: 0;
   display: flex;
@@ -194,6 +202,7 @@ html {
   text-align: center;
   grid-row: 1;
 }
+
 #filmes .genero {
   margin: 0;
   display: flex;
@@ -202,12 +211,14 @@ html {
   text-align: center;
   grid-row: 2;
 }
+
 #filmes .justificativa {
   margin: 0;
   font-size: 16px;
   line-height: 1.4;
   text-align: justify;
 }
+
 a.link-filme {
   display: inline-block;
   background-color: red;
@@ -222,6 +233,7 @@ a.link-filme {
   width: fit-content;
   justify-self: center;
 }
+
 a.link-filme:hover {
   background-color: #b20710;
   transform: translateY(-2px);
@@ -270,26 +282,31 @@ a.link-filme:hover {
   gap: 12px;
   max-width: 650px;
 }
+
 .favorito-conteudo h2 {
   font-size: 36px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .favorito-conteudo h3 {
   font-size: 28px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .favorito-conteudo p {
   font-size: 16px;
   line-height: 1.6;
   color: #ffffff;
 }
+
 .favorito-descrição {
   max-width: 600px;
   margin-top: 8px;
   margin-bottom: 12px;
 }
+
 .favorito-link {
   display: inline-block;
   width: fit-content;
@@ -306,6 +323,7 @@ a.link-filme:hover {
   background-color: #b20710;
   transform: translatey(-2px);
 }
+
 /*Links sociais*/
 .social-links img {
   width: 28px;
@@ -332,11 +350,13 @@ a.link-filme:hover {
     0 0 12px rgba(229, 9, 20, 0.8),
     0 0 20px rgba(229, 9, 20, 0.5);
 }
+
 .social-links {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
+
 .social-links a {
   display: flex;
   align-items: center;
@@ -350,17 +370,20 @@ a.link-filme:hover {
   transition: 0.3s;
   border: 1px solid #3d3d3d;
 }
+
 .social-links a:hover {
   background-color: #e50914;
   border-color: #e50914;
   transform: translatey(-2px);
 }
+
 .social-links img {
   width: 24px;
   height: 24px;
   object-fit: contain;
   filter: invert(1);
 }
+
 /*Alinhando todos os titulos para o centro*/
 header h1,
 h1,
@@ -475,6 +498,7 @@ footer {
     margin-left: 0;
     margin-right: 0;
   }
+
   footer {
     flex-direction: column;
     gap: 30px;
@@ -630,11 +654,7 @@ footer {
     padding: 20px;
 
     grid-template-rows:
-      64px
-      46px
-      280px
-      auto
-      auto;
+      64px 46px 280px auto auto;
   }
 
   #filmes article img {
@@ -787,6 +807,7 @@ body.tema-claro .social-links a {
   color: #111111;
   border-color: #cccccc;
 }
+
 body.tema-claro .social-links a:hover {
   background-color: #e50914;
   color: #ffffff;
@@ -807,6 +828,7 @@ body.tema-claro header button:hover {
     0 0 10px #e50914,
     0 0 20px rgba(229, 9, 20, 0.7);
 }
+
 body.tema-claro header {
   background-color: #ffffff;
 }
