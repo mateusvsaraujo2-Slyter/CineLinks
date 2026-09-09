@@ -1,32 +1,83 @@
 # Uso de Inteligência Artificial
 
-Durante o desenvolvimento do projeto CineLinks, ferramentas de Inteligência Artificial foram utilizadas como apoio ao aprendizado e à resolução de dúvidas.
+## Ferramenta utilizada
 
-A IA foi utilizada principalmente para:
+Durante o projeto utilizei o ChatGPT como ferramenta de apoio ao aprendizado e à resolução de problemas.
 
-- explicar conceitos de HTML, CSS e JavaScript;
-- auxiliar na identificação e correção de erros no código;
-- sugerir melhorias de responsividade;
-- explicar o funcionamento de Flexbox e Grid;
-- auxiliar na implementação do tema claro e escuro;
-- explicar o uso do `localStorage`;
-- ajudar na organização e revisão do README;
-- orientar sobre boas práticas de estruturação e semântica HTML.
+## Prompts relevantes utilizados
 
-As sugestões fornecidas pela IA foram analisadas, testadas e adaptadas durante o desenvolvimento do projeto.
+### Exemplo 1 — alinhamento dos pôsteres
 
-O objetivo do uso da IA foi complementar o processo de aprendizagem, mantendo a compreensão sobre as alterações realizadas no código.
+Prompt:
+"Os pôsteres dos filmes estão desalinhados, como corrigir isso?"
 
-## Exemplos de uso
+Resposta aproveitada:
+Foi sugerido utilizar alturas consistentes nos elementos do card e definir uma altura fixa para as imagens.
 
-Durante o desenvolvimento, algumas das dúvidas e solicitações realizadas à IA foram:
+Implementação:
+Ajustei os cards e as imagens utilizando propriedades como `grid-template-rows`, `height` e `object-fit`.
 
-- Como estruturar semanticamente as diferentes seções da página;
-- Como utilizar Flexbox e Grid para organizar os elementos;
-- Como alinhar os cards e pôsteres dos filmes;
-- Como melhorar a responsividade da página em dispositivos móveis;
-- Como implementar a alternância entre tema claro e escuro;
-- Como utilizar o `localStorage` para manter o tema selecionado;
-- Como implementar uma navegação suave até a seção de filmes;
-- Como identificar e corrigir problemas de CSS utilizando o DevTools;
-- Como organizar e documentar o projeto por meio do README.
+Verificação:
+Testei a página no navegador em diferentes larguras e confirmei visualmente que os pôsteres passaram a iniciar na mesma altura.
+
+### Exemplo 2 — tema claro e escuro
+
+Prompt:
+"Quero fazer o botão de tema funcionar e salvar o tema escolhido."
+
+Resposta aproveitada:
+Foi sugerido utilizar `classList.toggle()` para alternar a classe `tema-claro` e `localStorage` para guardar a escolha.
+
+Implementação:
+Foi criado o código JavaScript responsável por alternar o tema e salvar os valores `claro` e `escuro`.
+
+Verificação:
+Testei a troca de tema, atualizei a página com F5 e confirmei que a preferência permanecia salva.
+
+### Exemplo 3 — responsividade
+
+Prompt:
+"Minha página está cortando conteúdo no celular. Como ajustar a responsividade?"
+
+Resposta aproveitada:
+Foram sugeridos breakpoints com `@media`, alterações de Grid/Flexbox e reorganização dos elementos.
+
+Verificação:
+Utilizei o modo responsivo do DevTools e testei diferentes larguras de tela.
+
+## Respostas rejeitadas ou corrigidas
+
+Nem todas as sugestões da IA foram aplicadas diretamente.
+
+Durante o desenvolvimento foi sugerida a implementação de um carrossel para os filmes. Após testes, o comportamento apresentou problemas de posicionamento, rolagem e responsividade. A solução foi removida e o projeto voltou a utilizar cinco cards fixos alinhados em Grid.
+
+Também ocorreram situações em que regras CSS sugeridas não resolveram imediatamente o alinhamento dos pôsteres. Essas regras foram revisadas e ajustadas após testes no DevTools.
+
+Em outro momento, o botão de tema não funcionava porque a variável foi declarada como `botaotema`, mas utilizada posteriormente como `botaoTema`. O erro foi identificado e corrigido após a revisão do JavaScript.
+
+## Partes implementadas com apoio da IA
+
+A IA auxiliou principalmente em:
+
+- Ajustes de responsividade;
+- Alinhamento dos cards e pôsteres;
+- Implementação do tema claro e escuro;
+- Uso de `localStorage`;
+- Identificação de erros em HTML, CSS e JavaScript;
+- Revisão da estrutura semântica do HTML;
+- Organização do README;
+- Orientação sobre Git e GitHub.
+
+## Aprendizados obtidos
+
+Durante o processo aprendi a:
+
+- Diferenciar `id` e `class`;
+- Utilizar Flexbox e Grid;
+- Entender o funcionamento de `@media`;
+- Manipular classes com JavaScript;
+- Trabalhar com eventos de clique;
+- Utilizar `localStorage`;
+- Inspecionar elementos pelo DevTools;
+- Identificar conflitos entre regras CSS;
+- Utilizar Git para versionar e publicar alterações.

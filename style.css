@@ -301,7 +301,7 @@ a.link-filme:hover {
   color: #ffffff;
 }
 
-.favorito-descrição {
+.favorito-descricao {
   max-width: 600px;
   margin-top: 8px;
   margin-bottom: 12px;
@@ -491,7 +491,7 @@ footer {
     overflow-wrap: break-word;
   }
 
-  .favorito-descrição {
+  .favorito-descricao {
     width: 100%;
     max-width: 100%;
 
@@ -621,7 +621,7 @@ footer {
     line-height: 1.5;
   }
 
-  .favorito-descrição {
+  .favorito-descricao {
     width: 100%;
     max-width: 100%;
   }
@@ -732,7 +732,7 @@ body.tema-claro .favorito-conteudo p {
   color: #111111;
 }
 
-body.tema-claro .favorito-descrição {
+body.tema-claro .favorito-descricao {
   color: #333333;
 }
 
