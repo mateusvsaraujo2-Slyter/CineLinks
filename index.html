@@ -1,165 +1,181 @@
 <!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cinelinks - Minhas recomendações de cinemas</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Cinelinks - Minhas recomendações de cinemas</title>
-</head>
+  <body>
+    <header>
+      <h1>Cinelinks</h1>
+      <button id="botao-tema">Dark</button>
+    </header>
 
-<body>
-  <header>
-    <h1>Cinelinks</h1>
-    <button id="botao-tema">Dark</button>
-  </header>
-
-  <main>
-    <section class="hero">
-      <h2>Bem-vindo ao CineLinks</h2>
-
-      <p>
-        Descubra os filmes que mais marcaram minha vida e minhas recomendações
-        para quem ama cinema.
-      </p>
-
-      <a href="#filmes">Ver Recomendações</a>
-    </section>
-
-
-    <section class="favorito">
-
-      <img src="assets/filme8.jpg" alt=pânico>
-      <div class="favorito-conteudo">
-        <h2>Meu filme Favorito</h2>
-        <h3>Pânico</h3>
-        <p>Gênero: Terror / Slasher | Ano: 1996</p>
-
-
-
-        <p class="favorito-descricao">
-          Pânico é meu filme favorito pela forma como constrói uma atmosfera de suspense constante e também pelo uso da
-          metalinguagem que desconstrói o próprio gênero
-        </p>
-
-        <a href="https://imdb.com/pt/title/tt0117571/" class="favorito-link" target="_blank">
-          Saiba mais sobre o filme
-        </a>
-      </div>
-    </section>
-
-
-
-    <section id="filmes">
-      <h2>Filmes Recomendados</h2>
-
-
-
-      <div class="carrossel">
-        <article>
-          <h3>Bastardos Inglórios</h3>
-          <p class="genero">Gênero: Crime / Drama | Ano: 2009</p>
-          <img src="assets/filme1.jpg" alt="bastardos inglórios" />
-
-          <p class="justificativa">
-            Recomendo Bastardos Inglórios pela maneira como aborda muito bem alguns temas delicados, e também pela forma como subverte algumas regras de cinema.
-          </p>
-          <a href="https://www.imdb.com/pt/title/tt0361748/" class="link-filme" target="_blank">Saiba mais</a>
-        </article>
-
-        <article>
-          <h3>Cidade de Deus</h3>
-          <p class="genero">Gênero: Crime / Drama | Ano: 2002</p>
-          <img src="assets/filme2.jpg" alt="cidade de Deus" />
-
-          <p class="justificativa">
-            Recomendo Cidade de Deus por ser um clássico do cinema brasileiro com otimas atuações e uma montagem excelente.
-          </p>
-          <a href="https://www.imdb.com/pt/title/tt0317248/" class="link-filme" target="_blank">Saiba mais</a>
-        </article>
-
-        <article>
-          <h3>O Exorcista</h3>
-          <p class="genero">Gênero: Terror / Suspense | Ano: 1974</p>
-          <img src="assets/filme3.jpg" alt="O Exorcista" />
-
-          <p class="justificativa">
-            Recomendo O Exorcista por sua atmosfera sombria e atuações marcantes.
-          </p>
-          <a href="https://www.imdb.com/pt/title/tt0070047/" class="link-filme" target="_blank">Saiba mais</a>
-        </article>
-
-        <article>
-          <h3>Onde os Fracos Não Têm Vez</h3>
-          <p class="genero">Gênero: Crime / Drama | Ano: 2007</p>
-          <img src="assets/filme4.jpg" alt="Onde os fracos não tem vez" />
-
-          <p class="justificativa">
-            Recomendo este filme por sua narrativa envolv
-          </p>
-          <a href="https://www.imdb.com/pt/title/tt0477348/" class="link-filme" target="_blank">Saiba mais</a>
-        </article>
-
-        <article>
-          <h3>Obsessão</h3>
-          <p class="genero">Gênero: Terror / Suspense | Ano: 2026</p>
-          <img src="assets/filme5.jpg" alt="Obssessão" />
-
-          <p class="justificativa">
-            Recomendo este filme por sua narrativa envolvente e atuações
-            excepcionais.
-          </p>
-          <a href="https://www.imdb.com/pt/title/tt37287335/" class="link-filme" target="_blank">Saiba mais</a>
-        </article>
-
-      </div>
-
-    </section>
-
-
-
-  </main>
-
-
-  <footer>
-
-    <section class="social">
-      <h2>Onde me encontrar</h2>
-      <div class="social-links">
-        <a href="https://github.com/mateusvsaraujo2-Slyter" target="_blank">
-          <img src="assets/github.svg" alt="">
-          GitHub
-        </a>
-        <a href="https://www.instagram.com/vinicius_mateus76?igsi=MWU2NXV0Nm1xMGY0aw==" target="_blank">
-          <img src="assets/instagram.svg" alt="">
-          instagram
-
-        </a>
-
-      </div>
-
-    </section>
-
-
-    <div class="perfil-rodape">
-      <img src="assets/perfil.png" alt="imagem de perfil mateus araujo" />
-      <div class="perfil-rodape-texto">
-        <h3>Mateus Araújo</h3>
+    <main>
+      <section class="hero">
+        <h2>Bem-vindo ao CineLinks</h2>
 
         <p>
-          Sou um grande entusiasta de cinema, e um grande fã de filmes de Drama,
-          terror e Suspense
+          Descubra os filmes que mais marcaram minha vida e minhas recomendações
+          para quem ama cinema.
         </p>
+
+        <a href="#filmes">Ver Recomendações</a>
+      </section>
+
+      <section class="favorito">
+        <img src="assets/filme8.jpg" alt="poster do filme pânico" />
+        <div class="favorito-conteudo">
+          <h2>Meu filme Favorito</h2>
+          <h3>Pânico</h3>
+          <p>Gênero: Terror / Slasher | Ano: 1996</p>
+
+          <p class="favorito-descricao">
+            Pânico é meu filme favorito pela forma como constrói uma atmosfera
+            de suspense constante e também pelo uso da metalinguagem que
+            desconstrói o próprio gênero
+          </p>
+
+          <a
+            href="https://imdb.com/pt/title/tt0117571/"
+            class="favorito-link"
+            target="_blank"
+          >
+            Saiba mais sobre o filme
+          </a>
+        </div>
+      </section>
+
+      <section id="filmes">
+        <h2>Filmes Recomendados</h2>
+
+        <div class="carrossel">
+          <article>
+            <h3>Bastardos Inglórios</h3>
+            <p class="genero">Gênero: Crime / Drama | Ano: 2009</p>
+            <img
+              src="assets/filme1.jpg"
+              alt="poster do filme bastardos inglórios"
+            />
+
+            <p class="justificativa">
+              Recomendo Bastardos Inglórios pela maneira como aborda muito bem
+              alguns temas delicados, e também pela forma como subverte algumas
+              regras de cinema.
+            </p>
+            <a
+              href="https://www.imdb.com/pt/title/tt0361748/"
+              class="link-filme"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+
+          <article>
+            <h3>Cidade de Deus</h3>
+            <p class="genero">Gênero: Crime / Drama | Ano: 2002</p>
+            <img src="assets/filme2.jpg" alt="poster do filme cidade de Deus" />
+
+            <p class="justificativa">
+              Recomendo Cidade de Deus por ser um clássico do cinema brasileiro
+              com otimas atuações e uma montagem excelente.
+            </p>
+            <a
+              href="https://www.imdb.com/pt/title/tt0317248/"
+              class="link-filme"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+
+          <article>
+            <h3>O Exorcista</h3>
+            <p class="genero">Gênero: Terror / Suspense | Ano: 1974</p>
+            <img src="assets/filme3.jpg" alt=" poster do filme O Exorcista" />
+
+            <p class="justificativa">
+              Recomendo O Exorcista por sua atmosfera sombria e atuações
+              marcantes.
+            </p>
+            <a
+              href="https://www.imdb.com/pt/title/tt0070047/"
+              class="link-filme"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+
+          <article>
+            <h3>Onde os Fracos Não Têm Vez</h3>
+            <p class="genero">Gênero: Crime / Drama | Ano: 2007</p>
+            <img
+              src="assets/filme4.jpg"
+              alt="poster do filme Onde os fracos não tem vez"
+            />
+
+            <p class="justificativa">
+              recomendo Onde os Fracos Não Tem Vez,por ser um triller intenso e visceral sobre violência e vingança.
+            </p>
+            <a
+              href="https://www.imdb.com/pt/title/tt0477348/"
+              class="link-filme"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+
+          <article>
+            <h3>Obsessão</h3>
+            <p class="genero">Gênero: Terror / Suspense | Ano: 2026</p>
+            <img src="assets/filme5.jpg" alt=" poster do filme Obssessão" />
+
+            <p class="justificativa">
+              Recomendo Obsessão por ser uma das maiores surpresas do terror moderno, com um roteiro impecável e uma reviravolta brilhante se tornou um dos melhores filmes de terror da década.
+            </p>
+            <a
+              href="https://www.imdb.com/pt/title/tt37287335/"
+              class="link-filme"
+              target="_blank"
+              >Saiba mais</a
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="social">
+        <h2>Onde me encontrar</h2>
+        <div class="social-links">
+          <a href="https://github.com/mateusvsaraujo2-Slyter" target="_blank">
+            <img src="assets/github.svg" alt="" />
+            GitHub
+          </a>
+          <a
+            href="https://www.instagram.com/vinicius_mateus76?igsi=MWU2NXV0Nm1xMGY0aw=="
+            target="_blank">
+
+            <img src="assets/instagram.svg" alt="" />
+            instagram
+          </a>
+        </div>
+      </section>
+
+      <div class="perfil-rodape">
+        <img src="assets/perfil.png" alt="imagem de perfil mateus araujo" />
+        <div class="perfil-rodape-texto">
+          <h3>Mateus Araújo</h3>
+
+          <p>
+            Sou um grande entusiasta de cinema, e um grande fã de filmes de
+            Drama, terror e Suspense
+          </p>
+        </div>
       </div>
+    </footer>
 
-
-
-
-
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
