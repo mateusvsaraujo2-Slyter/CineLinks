@@ -76,6 +76,32 @@ Durante o desenvolvimento do CineLinks, foram praticados conceitos fundamentais 
 - Utilização do `localStorage` para armazenar a preferência de tema;
 - Criação de efeitos de hover e transições;
 - Organização e versionamento do projeto com Git e GitHub.
+  
+## Dificuldades encontradas
+
+Durante o desenvolvimento, algumas das principais dificuldades foram:
+
+- Ajustar o alinhamento dos pôsteres dos filmes;
+- Manter os cards com tamanhos consistentes;
+- Adaptar o layout para diferentes tamanhos de tela;
+- Corrigir problemas de responsividade no header, filme favorito e footer;
+- Implementar e depurar a troca entre tema claro e escuro;
+- Entender o funcionamento do `localStorage`;
+- Corrigir problemas de posicionamento durante a tentativa inicial de implementação de um carrossel;
+- Identificar conflitos entre regras CSS aplicadas ao tema claro e ao tema escuro.
+
+Essas dificuldades foram resolvidas por meio de testes no navegador, uso do DevTools, revisão do código e ajustes progressivos.
+
+## Melhorias futuras
+
+Algumas melhorias que podem ser implementadas futuramente:
+
+- Adicionar novos filmes à página;
+- Criar filtros por gênero;
+- Implementar busca por filmes;
+- Aprimorar a acessibilidade;
+- Melhorar ainda mais a responsividade;
+- Adicionar novas interações utilizando JavaScript.
 
 ## Autor
 
