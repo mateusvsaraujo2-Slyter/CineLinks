@@ -4,6 +4,9 @@ CineLinks é uma página web de recomendações de filmes criada como projeto de
 
 O site reúne alguns dos meus filmes favoritos, informações sobre cada obra, links relacionados e uma seção pessoal sobre meu gosto por cinema.
 
+Link do projetohttps://mateusvsaraujo2-slyter.github.io/CineLinks/
+
+
 ## Preview
 
 ![Preview do CineLinks](assets/imageread.png)
